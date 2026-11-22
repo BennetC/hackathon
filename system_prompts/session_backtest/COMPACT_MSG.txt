@@ -1,0 +1,1 @@
+/compact keep every past case's damage type, deciding policy clauses, our estimate and the feedback range per line; drop full policy texts

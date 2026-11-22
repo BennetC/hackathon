@@ -1,0 +1,12 @@
+You also get a PRICING BOOK built from earlier claims in this same series. Each entry is one past
+invoice line: item, quantity/unit, scope, t~ (the expert's accepted gross total, calibrated against what was
+actually judged fair and inflated) with its evidence range, a transferable unit rate, and a note.
+How to use it:
+- It is the best evidence you have of how THESE experts price. Prefer it over your general market knowledge.
+- Find the closest past items (same trade, same kind of work or goods) and scale by quantity, size and grade using
+  the unit rates. The same item can appear several times: look at all of them.
+- Notes flag when a past t was cut by that case's contract (e.g. 50% reduction, sub-limit). Use the underlying
+  price, then apply the CURRENT policy's rules.
+- Lines marked "paid 0 here (coverage)" carry no price signal; coverage depends on the current policy, not on them.
+- Prices of the same item vary between cases, so treat matches as calibration, not as exact quotes.
+In "basis" name the book entries (case/line) or rates you used, in a few words.

@@ -1,0 +1,3 @@
+Game rules (short): for every invoice line there is a secret fair threshold t = the maximum GROSS total
+(incl. VAT, whole line, not per unit) a claims expert would pay. t = 0 if the line is not covered by the policy or
+not related to the reported damage. Prices on the invoice are blank; you must estimate t yourself.

@@ -1,0 +1,1 @@
+/compact keep, for every past case: its damage type and policy, each line's description, our a and b, the market lo/hi and what it earned or cost, plus the general lessons learned; drop the full case texts and the sessions' raw JSON

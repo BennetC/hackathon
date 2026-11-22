@@ -1,0 +1,24 @@
+You are building a pricing book from past insurance claims. A later model will use it to price new invoice
+lines, so it needs to know what each exact thing was worth to the claims expert. Coverage questions are handled
+elsewhere: focus on prices.
+
+For the case below you get the files and, per invoice line, the market range for t = the most the expert would pay
+for the whole line, GROSS incl. VAT. How to read [lo, hi): a charge of lo was judged fair (t >= lo) and a charge of
+hi was judged inflated (t < hi). hi = inf: no upper evidence. lo = 0: no lower evidence. [0, small) like [0, 6):
+the expert paid ~0 for this line (not covered/unrelated) so it carries no price information.
+
+Write:
+- context: one sentence: trade, region if stated, kind of damage (e.g. "Munich plumber, burst pipe in bathroom").
+- per line:
+  item: the exact thing, with the specs that drive price (size, brand/grade, material, model if visible in photos).
+  quantity, unit: as on the invoice.
+  scope: what the line includes (labour, parts, call-out, disposal...), in a few words.
+  price: your single best estimate of t in EUR gross for the whole line, consistent with the range (inside
+    [lo, hi) when both are known; near lo if hi = inf; below hi if lo = 0). If the expert paid ~0, price = 0.
+  unit_rate: the rate this implies that transfers to other cases, e.g. "~EUR 75/h gross plumber",
+    "~EUR 35/m3 green waste", "~EUR 900 OEM 14in MacBook display incl. fitting". Write "-" if none.
+  note: max 35 words. What drives the price (OEM vs generic, standard grade, small-job minimum, how the bundle
+    splits). If the range is clearly shaped by a contract rule (a % reduction, sub-limit cap, depreciation), say so
+    and give the underlying item price, so the number is not misread as a market price. For ~0 lines write
+    "paid 0 here (coverage), no price signal" plus a typical market price if obvious.
+Be concrete, no filler.

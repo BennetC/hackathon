@@ -1,0 +1,1 @@
+Goal reminder: your `low` is what we charge, so it must be a price you are confident the fair value is at least. Above the fair value the whole line earns 0; below it you only lose the difference. Aim `low` just under the fair value.

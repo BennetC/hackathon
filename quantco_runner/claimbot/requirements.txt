@@ -1,0 +1,10 @@
+# Runtime dependencies (mirrors pyproject.toml). `pip install -e .` is preferred;
+# this file is for plain `pip install -r requirements.txt` setups.
+requests>=2.31
+pyzipper>=0.3.6
+pypdf>=4.0
+python-dotenv>=1.0
+anthropic>=2.12
+pillow>=11
+numpy>=2.0
+scipy>=1.13

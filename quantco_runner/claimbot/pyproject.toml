@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "claimbot"
+version = "0.1.0"
+description = "Team FDN bot for QuantCo's Claim to Fame challenge (START Hack 2026)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "pyzipper>=0.3.6",   # WinZip-AES decryption; stdlib zipfile cannot do AES
+    "pypdf>=4.0",
+    "python-dotenv>=1.0",
+    "anthropic>=2.12",   # Anthropic API backend
+    "pillow>=11",        # downscale case photos before vision calls
+    "numpy>=2.0",
+    "scipy>=1.13",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+claimbot = "claimbot.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["claimbot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
