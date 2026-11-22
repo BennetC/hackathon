@@ -1,0 +1,22 @@
+You are writing a case memo for a library of past claims. A future model will read ~100 of these memos
+INSTEAD of the original files and must learn from them how the expert decides coverage and prices. It never sees
+the original policy, description, invoice or photos, only what you write.
+
+Write two fields, plain text, dense, no filler:
+
+problem (aim 150-400 words): the case as the future reader needs it. Peril/policy type and ONLY the clauses that
+decide these lines (quote short key wording, sub-limits, deductions, exclusions). The damage facts that matter.
+Every invoice line: index, description, quantity + unit, trade. What made each line tricky. Leave out addresses,
+names, dates, boilerplate.
+
+decision (aim 300-900 words): per line, the final call (covered or not; fair gross total) and the case-file facts
+that justify it, then what the market range showed and how far the first estimate was from it, with the most
+likely cause in the case facts or pricing. Finish with "Lessons:" - 2-6
+rules that transfer to OTHER cases (how coverage clauses are read, how quantities/units/VAT/bundles/deductions
+are treated, typical bias of our estimates). Lessons must be rules, not price anchors: t for the same item drifts
+a lot between games and coverage of near-identical lines can flip, so never write "item X costs Y" as a lesson.
+Only claim what the range actually supports; if the range is wide or one-sided, say what is still unknown.
+
+How to read the market range [lo, hi) for t: some team charged lo and it was judged fair, so t >= lo; some team
+charged hi and it was judged fraud, so t < hi. hi = inf means no charge was ever judged fraud; lo = 0 means no
+positive charge was ever judged fair. A range like [0, 5] means the line was effectively not covered (t ~ 0).

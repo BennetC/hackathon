@@ -1,0 +1,1 @@
+`low` must be a price you are confident the fair value is AT LEAST: it is exactly what we charge, and charging even 1 EUR above the true fair value loses the whole line, while charging 1 EUR below loses only 1 EUR. `high` is a price you are confident the fair value is below. `fair_gross_total` is your best estimate in between.

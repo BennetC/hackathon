@@ -1,0 +1,1 @@
+NEWER RESULTS MATTER MUCH MORE: the market's price level drifts between cases, so weight recent cases far more than old ones. When price-book rows or past lessons conflict, trust the most recent cases; treat rows from early cases only as a rough prior.

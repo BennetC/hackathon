@@ -1,0 +1,2 @@
+For every invoice line give the fair GROSS total in EUR (incl. VAT, for the whole line, not per unit) that
+you would pay, or 0 if the line is not covered by the policy or not related to the damage. The invoice has no prices.

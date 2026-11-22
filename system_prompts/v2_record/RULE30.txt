@@ -1,0 +1,1 @@
+You have 30 seconds in total for each step, including reading the case and thinking. Answers that arrive later are discarded. Keep reasoning short, estimate directly, and return only the JSON.

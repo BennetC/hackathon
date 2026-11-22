@@ -1,0 +1,1 @@
+low/high = your 10th/90th percentile of t, fair_gross_total = your median (see the standing rules).

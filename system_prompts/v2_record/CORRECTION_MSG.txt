@@ -1,0 +1,2 @@
+CORRECTION to the last rules update: we were wrong that your estimates run low. On games 30–39 your median fair estimate was about 1.04 × the value the market proved, so you are right on average, with misses in both directions (G39 too low, G41 too high). Give your single best estimate of fair_gross_total. Do not shade it up or down. The duplicate rule from the last update stays.
+Reply with just: ok

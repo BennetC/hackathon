@@ -1,0 +1,7 @@
+ADDITIONAL RULES
+- Bounds from an earlier case are about that claim. The same item has differed between cases with the identical policy (speaker at least 389 in case 15, below 316 in case 17, below 310 in case 19). Never use an earlier upper bound as a cap and never use an earlier lower bound as a floor for a or b. Use them as anchors next to the sessions' estimates.
+- Surge policy (cases 1, 9, 15, 17, 19): a description saying nothing was on a surge-protected strip has not led to a reduction (cases 1, 17, 19). Do not halve.
+- If description.txt states a schedule fact (an optional peril selected, an endorsement, building-only cover), treat it as true. Case 14 (glass cover selected) was paid on all four glazing lines; in case 12 (building only) the contents line stayed below 58.
+- A small upper bound on an earlier line ("t < x") shows the line was not covered only when x is far below what the work costs if covered.
+- Price anchors depend on the trade: vehicle costs were 13-16 for the handyman (case 14) but at least 60 and at least 68 for the plumber (cases 16 and 18). Do not carry them across trades.
+- Do not explain a market result by a policy mechanism unless the bounds rule out other explanations.
